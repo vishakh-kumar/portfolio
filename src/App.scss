@@ -1,0 +1,48 @@
+$colorPrimary: #6a73c7;
+
+@media screen and (max-width: 1023px) {
+    .navRight {
+        display: none !important;
+    }
+}
+.myButton {
+    border: none;
+    background-color: white;
+    font-size: 25px !important;
+    margin-top: -60px !important;
+}
+.myButton:active {
+    color: $colorPrimary;
+}
+.links {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+}
+.link {
+    color: #4a4a4a;
+    font-size: 18px;
+}
+.link:active {
+    color: $colorPrimary;
+    transform: scale(0.95);
+}
+.link:hover {
+    color: $colorPrimary;
+}
+.container {
+    .title {
+        text-align: center;
+    }
+    .notification {
+        display: flex;
+        flex-direction: row;
+        img {
+            border: solid rgb(196, 196, 196) 1px;
+            width: 200px;
+            border-radius: 5px;
+        }
+    }
+}
