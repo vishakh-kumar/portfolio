@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "../../../../node_modules/bulma/bulma.sass";
 import logo from "../../assets/logo.png";
-import NavbarLeft from "./NavbarLeft";
+import NavbarRight from "./NavbarRight";
 import BurgerButton from "./BurgerButton";
 import BurgerMenu from "./BurgerMenu";
 import "../../../App.scss";
@@ -14,9 +14,14 @@ const NavBar = () => {
         <div className="container">
             <div className="navbar" style={{ paddingTop: 15, paddingLeft: 15 }}>
                 <div className="navbar-brand navbarIcon">
-                    <img src={logo} alt="VK logo" className="image is-64x64" />
+                    <img
+                        src={logo}
+                        alt="VK logo"
+                        className="image is-64x64"
+                        style={{ marginTop: 10 }}
+                    />
                 </div>
-                <NavbarLeft />
+                <NavbarRight />
                 <BurgerButton
                     onClick={() => setShowMenu(!showMenu)}
                     showMenu={showMenu}

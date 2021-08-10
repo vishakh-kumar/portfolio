@@ -1,13 +1,14 @@
 import React from "react";
 import "../../../../node_modules/bulma/bulma.sass";
 
-const NavbarLeft = () => {
+const NavbarRight = () => {
     return (
         <div className="navbar-end navRight">
             <a href="#" className="navbar-item">
                 Projects
             </a>
-            <a href="#" className="navbar-item">
+
+            <a href="#" className="navbar-item navMiddle">
                 About Me
             </a>
             <a href="#" className="navbar-item">
@@ -17,4 +18,4 @@ const NavbarLeft = () => {
     );
 };
 
-export default NavbarLeft;
+export default NavbarRight;
