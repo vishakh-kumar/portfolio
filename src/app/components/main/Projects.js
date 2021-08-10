@@ -77,7 +77,7 @@ const Projects = () => {
                         <p className="desc">
                             Travel Blog is a great app to log your travel
                             history and the data is stored in the database. Its
-                            an open app hence everyone can see your posts.
+                            an open app, hence everyone can see your posts.
                         </p>
                     </div>
                 </div>

@@ -36,8 +36,8 @@ const Specs = () => {
                     <p className="heading">Type of Projects</p>
                     <p className="columnContent">
                         I try to make simple applications which are easy to use
-                        and are useful. My goal is to make apps that can be used
-                        everyday to help ease chores.
+                        and are useful. My goal is to make apps that are easy to
+                        use and effective in helping daily activities.
                     </p>
                     <p className="heading">Apps Designed</p>
                     <p className="columnContent">
