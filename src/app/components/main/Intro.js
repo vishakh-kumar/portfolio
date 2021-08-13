@@ -5,7 +5,7 @@ import pic from "../../assets/pic.jpg";
 
 const Intro = () => {
     return (
-        <div className="introContainer" style={{ marginTop: 100 }}>
+        <div className="introContainer" id="top" style={{ marginTop: 100 }}>
             <h1 className="title">
                 Software Engineer, Full-Stack Developer & Learner
             </h1>

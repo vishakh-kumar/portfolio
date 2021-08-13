@@ -35,8 +35,9 @@ const Specs = () => {
                     <i class="fas fa-code" />
                     <p className="heading">Type of Projects</p>
                     <p className="columnContent">
-                        My goal is to make apps that are easy to use and
-                        effective in helping daily activities.
+                        I make simple applications that are effective but easy
+                        to use. My goal is to offer these apps to ensure others
+                        achieve their daily goals in an organized manner.
                     </p>
                     <p className="heading">Apps Designed</p>
                     <p className="columnContent">

@@ -1,4 +1,3 @@
-import { Link } from "react";
 import "../../../../node_modules/bulma/bulma.sass";
 import "../../../App.scss";
 import grocery1 from "../../assets/groceryApp/grocery1.png";
@@ -20,7 +19,7 @@ const Projects = () => {
                             <img
                                 src={books1}
                                 className="booksApp"
-                                alt="Books image 1"
+                                alt="Books 1"
                             />
                         </a>
                         <p className="desc">
@@ -36,7 +35,7 @@ const Projects = () => {
                     <p className="heading">Beanstalk</p>
                     <div className="projectDescription">
                         <a href="https://beanstalk-app.herokuapp.com/">
-                            <img src={beanstalk1} alt="Beanstalk image 1" />
+                            <img src={beanstalk1} alt="Beanstalk 1" />
                         </a>
                         <p className="desc">
                             BeanStalk is my first group project with 2 other
@@ -53,8 +52,9 @@ const Projects = () => {
                         <a
                             href="https://mystifying-kilby-d16d5d.netlify.app/"
                             target="_blank"
+                            rel="noreferrer"
                         >
-                            <img src={grocery1} alt="Grocery List image 1" />
+                            <img src={grocery1} alt="Grocery List 1" />
                         </a>
                         <p className="desc">
                             Grocery List is the best grocery list tracker you
@@ -71,8 +71,9 @@ const Projects = () => {
                         <a
                             href="https://v-travel-log.herokuapp.com/"
                             target="_blank"
+                            rel="noreferrer"
                         >
-                            <img src={travelBlog1} alt="Travel Blog image 1" />
+                            <img src={travelBlog1} alt="Travel Blog 1" />
                         </a>
                         <p className="desc">
                             Travel Blog is a great app to log your travel
@@ -88,8 +89,9 @@ const Projects = () => {
                         <a
                             href="https://vishakh-kumar.github.io/world-news/"
                             target="_blank"
+                            rel="noreferrer"
                         >
-                            <img src={newsApp1} alt="News App image 1" />
+                            <img src={newsApp1} alt="News App 1" />
                         </a>
                         <p className="desc">
                             News App is a simple app that pulls data from the

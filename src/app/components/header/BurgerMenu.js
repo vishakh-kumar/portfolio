@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../../../node_modules/bulma/bulma.sass";
 import "../../../App.scss";
 
@@ -11,9 +12,9 @@ const BurgerMenu = () => {
             <a href="#aboutMe" className="link">
                 About Me
             </a>
-            <a href="#" className="link">
+            <Link to={`/contact`} className="link">
                 Contact
-            </a>
+            </Link>
         </div>
     );
 };

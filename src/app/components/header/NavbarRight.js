@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../../node_modules/bulma/bulma.sass";
+import { Link } from "react-router-dom";
 
 const NavbarRight = () => {
     return (
@@ -11,9 +12,9 @@ const NavbarRight = () => {
             <a href="#aboutMe" className="navbar-item navMiddle">
                 About Me
             </a>
-            <a href="#" className="navbar-item">
+            <Link to={`/contact`} className="navbar-item">
                 Contact
-            </a>
+            </Link>
         </div>
     );
 };

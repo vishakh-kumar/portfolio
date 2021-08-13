@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../../../node_modules/bulma/bulma.sass";
 import logo from "../../assets/logo.png";
 import NavbarRight from "./NavbarRight";
@@ -14,12 +15,14 @@ const NavBar = () => {
         <div className="container">
             <div className="navbar" style={{ paddingTop: 15, paddingLeft: 15 }}>
                 <div className="navbar-brand navbarIcon">
-                    <img
-                        src={logo}
-                        alt="VK logo"
-                        className="image is-64x64"
-                        style={{ marginTop: 10 }}
-                    />
+                    <Link to="/">
+                        <img
+                            src={logo}
+                            alt="VK logo"
+                            className="image is-64x64"
+                            style={{ marginTop: 10 }}
+                        />
+                    </Link>
                 </div>
                 <NavbarRight />
                 <BurgerButton
