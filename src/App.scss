@@ -38,6 +38,9 @@ $colorPrimary: #6a73c7;
         width: 90%;
         margin-left: 5%;
     }
+    .thankyou {
+        text-align: center;
+    }
 }
 // styles
 html {
@@ -272,6 +275,28 @@ body {
         button:active {
             background-color: white;
             color: $colorPrimary;
+        }
+    }
+}
+
+.thankyouContainer {
+    height: 600px;
+    .thankyouSection {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        button {
+            border: none;
+            background-color: white;
+            img {
+                width: 100px;
+                margin-top: -15px;
+            }
+            img:active {
+                transform: scale(0.95);
+            }
         }
     }
 }

@@ -19,7 +19,7 @@ const ContactMe = () => {
     //for redirect
     const history = useHistory();
     const handleRedirect = () => {
-        history.push("/");
+        history.push("/thankyou");
     };
 
     // form submission

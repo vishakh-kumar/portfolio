@@ -5,6 +5,7 @@ import Projects from "../components/main/Projects";
 import Specs from "../components/main/Specs";
 import { Route, Switch } from "react-router-dom";
 import ContactMe from "./ContactMe";
+import ThankYou from "./ThankYou";
 
 const Main = () => {
     return (
@@ -18,6 +19,9 @@ const Main = () => {
                 </Route>
                 <Route path="/contact">
                     <ContactMe />
+                </Route>
+                <Route path="/thankyou">
+                    <ThankYou />
                 </Route>
             </Switch>
         </div>
