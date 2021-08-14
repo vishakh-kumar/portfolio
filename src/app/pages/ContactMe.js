@@ -9,12 +9,7 @@ const ContactMe = () => {
                 <h1 className="title">For further informations</h1>
             </div>
             <div className="center">
-                <form
-                    name="contact v1"
-                    method="post"
-                    data-netlify="true"
-                    onSubmit="submit"
-                >
+                <form name="contact v1" action="post" netlify onSubmit="submit">
                     <input type="hidden" name="form-name" value="contact v1" />
                     <label>
                         Name:
