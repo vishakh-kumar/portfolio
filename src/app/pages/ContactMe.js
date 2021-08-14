@@ -44,12 +44,12 @@ const ContactMe = () => {
             </div>
             <div className="center">
                 <form
-                    name="contact v1"
+                    name="contact"
                     onSubmit={handleSubmit}
                     method="POST"
                     data-netlify="true"
                 >
-                    <input type="hidden" name="form-name" value="contact v1" />
+                    <input type="hidden" name="form-name" value="contact" />
                     <label>
                         Name:
                         <input
