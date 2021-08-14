@@ -36,7 +36,7 @@ const ContactMe = () => {
             <div className="center">
                 <form
                     name="contact"
-                    onChange={handleSubmit}
+                    onSubmit={handleSubmit}
                     method="POST"
                     data-netlify="true"
                 >
