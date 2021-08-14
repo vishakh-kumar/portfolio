@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 import "../../../node_modules/bulma/bulma.sass";
 import "../../App.scss";
 
@@ -15,19 +16,29 @@ const ContactMe = () => {
             )
             .join("&");
     };
+    //for redirect
+    const history = useHistory();
+    const handleRedirect = () => {
+        history.push("/");
+    };
+
+    // form submission
     const handleSubmit = (e) => {
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...form }),
         })
-            .then(() => alert("Success!"))
+            .then(() => {
+                handleRedirect;
+            })
             .catch((error) => alert(error));
         e.preventDefault();
     };
     const handleChange = (event) => {
         setForm({ ...form, [event.target.name]: event.target.value });
     };
+
     return (
         <div className="formContainer">
             <div className="contactMeIntro">
