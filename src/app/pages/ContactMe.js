@@ -16,15 +16,18 @@ const ContactMe = () => {
                     onSubmit="submit"
                 >
                     <input type="hidden" name="form-name" value="contact v1" />
-                    <label>Name:</label>
-                    <input type="text" name="name" className="input" />
-
-                    <label>Email:</label>
-                    <input type="email" name="email" className="input" />
-
-                    <label>Message:</label>
-                    <textarea name="message" row="4" className="textarea" />
-
+                    <label>
+                        Name:
+                        <input type="text" name="name" className="input" />
+                    </label>
+                    <label>
+                        Email:
+                        <input type="email" name="email" className="input" />
+                    </label>
+                    <label>
+                        Message:
+                        <textarea name="message" row="4" className="textarea" />
+                    </label>
                     <button type="submit" value="submit" className="button">
                         Submit
                     </button>
