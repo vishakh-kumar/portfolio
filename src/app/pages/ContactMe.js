@@ -77,7 +77,11 @@ const ContactMe = () => {
                             className="textarea"
                         />
                     </label>
-                    <button type="submit" className="button">
+                    <button
+                        onClick={handleRedirect}
+                        type="submit"
+                        className="button"
+                    >
                         Submit
                     </button>
                 </form>
