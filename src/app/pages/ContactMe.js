@@ -9,7 +9,7 @@ const ContactMe = () => {
                 <h1 className="title">For further informations</h1>
             </div>
             <div className="center">
-                <form name="contact v1" action="post" netlify onSubmit="submit">
+                <form name="contact" method="POST" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact v1" />
                     <label>
                         Name:
@@ -23,7 +23,7 @@ const ContactMe = () => {
                         Message:
                         <textarea name="message" row="4" className="textarea" />
                     </label>
-                    <button type="submit" value="submit" className="button">
+                    <button type="submit" className="button">
                         Submit
                     </button>
                 </form>
