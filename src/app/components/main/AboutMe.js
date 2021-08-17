@@ -1,6 +1,7 @@
 import React from "react";
 import "../../../../node_modules/bulma/bulma.sass";
 import "../../../App.scss";
+import resume from "../../assets/Resume.pdf";
 
 const AboutMe = () => {
     return (
@@ -20,6 +21,11 @@ const AboutMe = () => {
                     others to use. There is a lot more I want to learn, and the
                     more I learn, the better I’ll get.
                 </p>
+                <a href={resume} download="Vishakh Resume">
+                    <div>
+                        <i class="fas fa-file-download" /> Download Resume
+                    </div>
+                </a>
             </div>
         </div>
     );

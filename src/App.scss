@@ -209,6 +209,23 @@ body {
         }
         p {
             font-size: 18px;
+            margin-bottom: 10px;
+        }
+        a {
+            font-size: 20px;
+            color: $colorPrimary;
+            div {
+                i {
+                    margin-right: 5px;
+                    font-size: 25px;
+                }
+            }
+            div:active {
+                transform: scale(0.95);
+            }
+        }
+        a:hover {
+            color: #4a4a4a;
         }
     }
 }
