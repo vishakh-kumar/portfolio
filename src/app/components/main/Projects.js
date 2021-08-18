@@ -8,9 +8,10 @@ import beanstalk1 from "../../assets/beanstalk/beanstalk1.png";
 const Projects = () => {
     return (
         <div className="projectContainer" id="projects">
-            <h1 className="title" style={{ marginBottom: 50, fontSize: 35 }}>
+            <h1 className="title" style={{ fontSize: 35 }}>
                 Recent Projects
             </h1>
+            <p style={{ marginBottom: 50 }}>(All Images Below Are Clickable)</p>
             <div className="projectDisplay">
                 <div className="tile">
                     <p className="heading">Books App</p>
