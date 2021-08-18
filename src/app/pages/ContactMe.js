@@ -40,7 +40,7 @@ const ContactMe = () => {
     return (
         <div className="formContainer">
             <div className="contactMeIntro">
-                <h1 className="title">For further informations</h1>
+                <h1 className="title">For further information</h1>
             </div>
             <div className="center">
                 <form
